@@ -332,7 +332,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #000;
+  color: #000000;
 }
 
 a:focus, a:hover, a:active {
@@ -344,11 +344,11 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #000 !important;
+  background-color: #000000 !important;
 }
 
 .bg-secondary {
-  background-color: #000 !important;
+  background-color: #000000 !important;
 }
 
 .text-primary {
