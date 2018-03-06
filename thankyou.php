@@ -12,7 +12,8 @@ $success = $conn->query($query);
 if (!$success) {
     die("Couldn't enter data: ".$conn->error);
 }
-<meta http-equiv="Location" content="http://halatamusicdatabase.gearhostpreview.com/">
 $conn->close();
- 
+
+header("Location: http://halatamusicdatabase.gearhostpreview.com/");
+exit;
 ?>
