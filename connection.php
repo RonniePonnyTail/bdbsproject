@@ -3,7 +3,7 @@
  
 function Connect()
 {
- $dbhost = "den1.mysql2.gear.host:3306";
+ $dbhost = "den1.mysql2.gear.host";
  $dbuser = "musiclibrarydb";
  $dbpass = "Va28URjY~Q6~";
  $dbname = "MUSIC_LIBRARY_DB";
