@@ -12,7 +12,7 @@ $success = $conn->query($query);
 if (!$success) {
     die("Couldn't enter data: ".$conn->error);
 }
- 
+ echo "Thank You For Contacting Us <br>";
 $conn->close();
  
-?
+?>
