@@ -156,24 +156,20 @@
             <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->                  
             <!--<form name="sentMessage" id="contactForm" novalidate="novalidate">   --> 
 			<form action="thankyou.php" method = "post">
-              <div class="control-group"> 
-				<label>Jmeno
-                  </label>			  
+              <div class="control-group">                    
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">                      
                   <label>Jmeno
                   </label>                      
-                  <input type = "text" name = "JMENO">                      
+                  <input class="form-control" name = "JMENO" id="jmeno" type="text" placeholder="Jmeno" required="required" data-validation-required-message="Prosim zadej sve jmeno.">                      
                   <p class="help-block text-danger">
                   </p>                    
                 </div>                  
               </div>  
-              <div class="control-group"> 
-				<label>Prijmeni
-                  </label> 			  
+              <div class="control-group">                    
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">                      
                   <label>Prijmeni
                   </label>                      
-                 <input type = "text" name = "PRIJMENI">                      
+                  <input class="form-control" name = "PRIJMENI" id="prijmeni" type="prijmeni" placeholder="Prijmeni" required="required" data-validation-required-message="Prosim zadej sve prijmeni.">                      
                   <p class="help-block text-danger">
                   </p>                    
                 </div>                  
@@ -182,7 +178,7 @@
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">                      
                   <label>Email
                   </label>                      
-                 <input type = "text" name = "LOGIN_EMAIL">                      
+                  <input class="form-control" name = "LOGIN_EMAIL" id="email" type="email" placeholder="Emailova adresa" required="required" data-validation-required-message="Prosim zadej svuj email.">                      
                   <p class="help-block text-danger">
                   </p>                    
                 </div>                  
@@ -191,17 +187,17 @@
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">                      
                   <label>Heslo
                   </label>                      
-                  <input type = "text" name = "HESLO">                      
+                  <input class="form-control" name = "HESLO" id="heslo" type="text" placeholder="Heslo" required="required" data-validation-required-message="Prosim zadej sve heslo.">                      
                   <p class="help-block text-danger">
                   </p>                    
                 </div>                  
-              </div>                                
+              </div>                                  
               <br>                  
               <div id="success">
               </div>                  
               <div class="form-group">                    
                 <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Registruj
-                </button>                   
+                </button>                  
               </div>                
             </form>              
           </div>            
